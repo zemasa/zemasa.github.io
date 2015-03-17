@@ -1,0 +1,200 @@
+/* --------------------------- Tablet (Landscape) --------------------------- */  
+
+@media (min-width:800px) and (max-width:1024px){
+	#content article {width: 100%;padding: 160px 30px 0;}
+	h1 {float:none;font-size: 46px;line-height: 46px;}
+	.line-left, .line-right {display: none}
+	nav#primary {display: none;}
+	#footer-content {width: 100%;}
+
+	#slide-1 .title {width: 96px;}
+	#slide-1 img {width: 52%;top: 22%;right: 0;}
+	#slide-1 h2 { padding: 10px 0 20px;}
+
+	.border-gradient {overflow: hidden;}
+	#service-container {width: 31.5%;}
+	.border-gradient,.service-content {width: 100%}
+	.service-content img {width: 85%;}
+
+	.case-study-image {width: 45%;}
+	.case-study-description {width: 55%;}
+	.case-study-logo {width: 21%}
+	.case-study-title {width: 34%;}
+
+	#certification-container { width: 48.5%;height: auto;overflow:auto}
+	.certification-content {width: 100%;height: auto;overflow:auto}
+	.certification-content h3 {font-size: 25px;}
+
+	#parallax-bg1,#parallax-bg2,#parallax-bg3,#bg1-1,#bg2-1,#bg2-2,#bg3-1,#bg3-2 {display: none;}
+}
+
+
+
+/* --------------------------- Tablet (Portrait) --------------------------- */  
+
+@media (min-width:650px) and (max-width:800px){
+	h1 {float: none;}
+	#content article {width: 100%;padding: 160px 30px 0;}
+	.line-left, .line-right {display: none}
+	nav#primary {display: none;}
+	#content {width: 100%;}
+	#footer-content {width: 100%;}
+
+	#slide-1 img {width: 57%;top: 36%;right: 0;}	
+	body {font-size: 20px;}
+	#slide-1 h2 {padding: 20px 0 20px;width: 100%; text-align: center;font-size: 29px;line-height: 29px;}
+	#slide-1 h3 {font-size: 28px;line-height:28px;width: 50%;}
+	#slide-1 p {width: 50%;margin: 40px 0;}
+
+	.border-gradient {overflow: hidden;}
+	#service-container {float: none;height: auto;overflow:auto;margin: 0 0 30px;width: 100%;}
+	.service-content {float: none;height: auto;overflow:auto;width: 100%;}
+	.service-content img {float: left;width: 34.5%;}
+	.service-content h3 {float: left;padding: 20px 0;}
+	.service-content p {float: left;text-align: left;width: 54%;padding: 0 20px 0 0;}
+	
+	#slide-3 h2 {width: 85%;}
+	.case-study-image {float: none;}
+	.case-study-image img {margin: 0 auto;}
+	.case-study-description {width: 94%;}
+	.case-study-title {margin: 45px 0 0;}
+	.case-study-content a.link {float: right;margin: 45px 20px 0 0;}
+	.case-study-content p {margin: 0;}
+
+	#certification-container {float: none;margin: 30px 0;width: 100%;text-align: center;height: auto;overflow:auto}
+	.certification-content {width: 100%;height: auto;overflow:auto}
+	.certification-logos,.certification-title {display: inline-block;}	
+	.certification-content p {padding: 0 20px;}
+
+	#parallax-bg1,#parallax-bg2,#parallax-bg3,#bg1-1,#bg2-1,#bg2-2,#bg3-1,#bg3-2 {display: none;}
+}
+
+
+
+/* --------------------------- Smartphone (Landscape) --------------------------- */ 
+
+@media (min-width:450px) and (max-width:650px){ 
+	#content article {width: 100%;padding: 100px 30px 0;}
+	.line-left, .line-right {display: none}
+	#banner {height: 75px;}
+	#banner span {background: none;}
+	#banner img {padding: 20px 0 27px;}
+	nav#primary {display: none;}
+	h1 {float: none;}
+	h2 {font-size: 28px;line-height: 28px;}
+	nav.next-prev {margin: 0 auto;padding: 50px 0 0;display: inline-block;}
+	body {font-size: 18px;}
+	#content {width: 100%;}
+	#footer-content {width: 100%;}
+
+	#slide-1, #slide-2, #slide-3, #slide-4, #slide-5 {padding-top: 110px;}
+
+	#slide-1 nav.next-prev {width: 80px;display: block;padding:50px 0 0px;}
+	#slide-1 {text-align: center;}
+	#slide-1 h2 {width: 100%;padding: 0;}
+	#slide-1 h3 {width: 100%;padding: 0;}
+	#slide-1 p {width: 100%;}
+	#slide-1 img {position: relative;top: 0;width: 75%;margin: 0 auto;}
+
+	#slide-3 h2 {width: 100%;}
+	#slide-3 img {width: 100%;}
+	
+	.border-gradient {overflow: hidden;}
+	#service-container {height: auto;overflow: auto;float: none;margin: 0 0 30px;width: 100%;}
+	.service-content {height: auto;overflow: auto;float: none;width: 100%;}
+	.service-content img {float: left;width: 44%;}
+	.service-content h3 {text-align:left;float: left;padding: 14% 0 0;font-size: 30px;line-height: 35px;width: 45%;}
+	.service-content p {clear:both;float: left;text-align: left;width: 100%;padding: 0 20px;}
+	
+	.case-study-image {float: none;padding: 20px 20px 0px;}
+	.case-study-logo {float: none;padding: 0 0 20px 0;display: inline-block;}
+	.case-study-content a.link {display: none;}
+	.case-study-title {margin: 0;padding:0 20px;width: 100%;text-align: center;}
+	.case-study-description {width: 100%; text-align: center;}
+	.case-study-content p {float: none;}
+	.case-study-content a.button {display: inline-block;float: none;}
+	.case-study-content h3 {font-size: 27px;line-height: 27px;}
+
+	#certification-container {float: none;margin: 30px 0;width: 100%;text-align: center;height: auto;overflow:auto}
+	.certification-content {width: 100%;height: auto;overflow:auto}
+	.certification-logos,.certification-title {display: inline-block;}	
+	.certification-content p {padding: 0 20px;}
+	.certification-content img.icon {padding: 20px 10px 0 0;}
+	.certification-content h3 {font-size: 23px;}
+
+	#footer nav.next-prev {width: 100%;display: block;padding:50px 0 30px;}
+
+	#parallax-bg1,#parallax-bg2,#parallax-bg3,#bg1-1,#bg2-1,#bg2-2,#bg3-1,#bg3-2 {display: none;}
+
+	.opl {top: 10px;}
+} 
+
+ 
+
+/* --------------------------- Smartphone (Portrait) --------------------------- */  
+
+@media (max-width:450px) {
+	#content article {width: 100%;padding: 100px 30px 0;}
+	.line-left, .line-right {display: none}
+	#banner {height: 75px;}
+	#banner span {background: none;}
+	#banner img {padding: 20px 0 27px;}
+	nav#primary {display: none;}
+	h1 {font-size: 35px;line-height:35px;float: none}
+	h2 {font-size: 24px;line-height: 24px;}
+	nav.next-prev {margin: 0 auto;padding: 50px 0 0;display: inline-block;}
+	body {font-size: 18px;}
+	#content {width: 100%;}
+	#footer-content {width: 100%;}
+	a.button {font-size: 20px;}
+
+	#slide-1, #slide-2, #slide-3, #slide-4, #slide-5 {padding-top: 110px;}
+	#slide-1 {text-align: center;}
+	#slide-1 h1 {font-size: 40px;line-height: 40px;}
+	#slide-1 h2 {width: 100%;padding: 0;font-size: 25px;line-height: 25px;}
+	#slide-1 h3 {width: 100%;padding: 0;line-height: 30px;}
+	#slide-1 p {width: 100%;}
+	#slide-1 img {position: relative;top: 0;max-width: 100%;top: 0px;right: 0;margin: 0 0 20px;}
+
+	#slide-2 h2 {font-size: 24px;line-height: 24px;}	
+	.border-gradient {overflow: hidden;}
+	#service-container {height: auto;overflow: auto;float: none;margin: 0 0 30px;width: 100%;}
+	.service-content {height: auto;overflow: auto;float: none;width: 100%;}
+	.service-content img {float: none;width: 84%;margin: 20px auto;}
+	.service-content h3 {text-align:center;float: none;font-size: 25px;line-height: 25px;width: 100%;}
+	.service-content p {clear:both;float: none;text-align: center;width: 100%;padding: 0 20px;}
+	
+	#slide-3 h1 {font-size: 33px;line-height: 33px;}
+	#slide-3 h2 {width: 100%;font-size: 24px;line-height: 24px;}
+	#slide-3 img {width: 100%;}
+	.case-study-logo {float: none;padding: 0 0 20px 0;display: inline-block;width: 50%;}
+	.case-study-content a.link {display: none;}
+	.case-study-title {margin: 0;padding:0 20px;width: 100%;text-align: center;}
+	.case-study-description {width: 100%; text-align: center;}
+	.case-study-content p {float: none;}
+	.case-study-content a.button {display: inline-block;float: none;}
+	.case-study-image {float: none;padding: 20px 20px 0px;}
+	.case-study-content h3 {font-size: 19px;}
+	.case-study-content h4 {font-size: 11px;}
+	
+	#slide-4 h1 {font-size: 33px;line-height: 33px;}
+	#slide-4 h2 {width: 100%;font-size: 24px;line-height: 24px;}
+	.team-photos ul li img {width: 100%;}
+	.team-photos ul li {margin: 0 4% 6%;width: 37%;}
+	#certification-container {float: none;margin: 30px 0;width: 100%;text-align: center;height: auto;overflow:auto}
+	.certification-content {width: 100%;height: auto;overflow:auto}
+	.certification-logos,.certification-title {display: inline-block;}	
+	.certification-content p {padding: 0 20px;}
+	.certification-content img.icon {padding: 20px 10px 0 0;float: none;margin: 0 auto;display: block;}
+	.certification-content h3 {font-size: 23px; padding: 20px 20px 0;}
+	.certification-content img {display: inline;float: none;}
+
+	#slide-5 h1 {font-size: 33px;line-height: 33px;}
+	#slide-5 h2 {width: 100%;font-size: 24px;line-height: 24px;}
+
+	#footer nav.next-prev {width: 100%;display: block;padding:50px 0 30px;}
+
+	#parallax-bg1,#parallax-bg2,#parallax-bg3,#bg1-1,#bg2-1,#bg2-2,#bg3-1,#bg3-2 {display: none;}
+
+	.opl {display: none;}
+}
